@@ -1,7 +1,7 @@
 __author__ = "Barak Taya"
-__credits__ = ["Saar Sever", "Lee Rosenberg", "Matan Yablonsky", "Koren Shpitzer", "Ron Yunker"]
+__credits__ = ["Saar *****", "Lee *********", "Matan *********", "Koren ********", "Ron ******"]
 __license__ = "GNU Affero General Public License v3.0"
-__version__ = "5"
+__version__ = "1"
 __maintainer__ = "Barak Taya"
 __email__ = "barakadax@gmail.com"
 
