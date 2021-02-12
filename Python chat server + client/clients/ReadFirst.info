@@ -1,0 +1,32 @@
+Minimum: python 3.3 & above, CPU that supports threads/multiprocessing.
+
+If python not installed download via this link:
+https://www.python.org/downloads/
+
+Afterwards open your terminal (linux/mac users) or cmd (windows users) & use install this packages:
+
+* "pip install cryptography"
+* "pip install pycryptodome"
+* "pip install crypto"
+
+(if you get on anytime any issue with those packages reinstall them)
+
+If you encounter any error try switching "pip" to "pip3" or adding the word "python"/"python3" before the "pip".
+
+Extract the client folder from the .zip file.
+Run the program via using RunMeWin for windows & RunMeLin for linux.
+
+Q&A:
+Q - User doesn't get your messages.
+A - Make sure the user added you into their contacts (vice versa).
+
+Q - I can't contact anyone.
+A - Make sure file contactBook.db isn't corrupted.
+
+Q - I added someone & still can't contact.
+A - Make sure you wrote his username correctly, try deleting via the command "delete" & adding via command "add".
+
+Q - Don't know a command to do something.
+A - Use "help" to get the full list.
+
+For farther help please contact your service administrator.

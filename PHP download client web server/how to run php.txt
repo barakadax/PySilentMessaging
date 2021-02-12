@@ -1,0 +1,4 @@
+How to run PHP, in terminal write "php -S 0.0.0.0:portNumber" try using 8123
+FROM THE FOLDER WITH PHP INDEX ONLY!
+
+If it's not working uncomment from php.ini: ";extension=php_pgsql.dll" & "extension=php_pgsql.so"

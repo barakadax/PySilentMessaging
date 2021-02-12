@@ -1,0 +1,42 @@
+Minimum hardware requirement is CPU that supporting multithreading/multiprocessing.
+Recommended 8GB of RAM.
+(service was test on winXP, win10 & on Ubuntu 18.4+)
+Minimum python version requirement 3.3 & above.
+
+WARNING!: without preforming each of those steps the service won't run.
+Please do those tasks carefully.
+
+You will need to install few python packages.
+but first you need to update your pip:
+*(sometimes using "pip" won't work so instead use "pip3", also with "python" to "python3")*
+
+* "python -m pip install --upgrade pip"
+
+The packages to install:
+
+* "pip install cryptography"
+* "pip install pycryptodome"
+* "pip install XlsxWriter"
+* "pip install SQLAlchemy"
+* "pip install psycopg2"
+* "pip install crypto"
+
+(if encounter any issues running with those libraries try reinstalling those packages)
+
+Next step is to download postgresql.
+While installing keep postgresql ONLY ON LOCALHOST (security measurements)
+Keep username as: "postgres"
+Keep port as: "5432"
+Password you should use: "1234"
+(if changed any of those you need to edit "cliDBHandler.py" & "DBHandler.py")
+
+When done installing check from database called "postgres".
+If none existent, create one with that exact name.
+
+WARNING!: any typo made will keep the server none functional, recommended copy & paste from what in quotation marks.
+
+Now all you need is to create table, just copy & paste this:
+
+"CREATE TABLE IF NOT EXISTS silentUsers (Username text NOT NULL, Password text NOT NULL, PermissionLevel SMALLINT NOT NULL, PRIMARY KEY (Username));"
+
+Run server from "main.py"
